@@ -2,13 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./src/css/layout.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/ClickCounter.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 4 Project</title>
+    <title>Cookie Click Counter</title>
+    
+
 </head>
+
 <body>
     <div class="container">
-        <div class="anchor"></div>
-    </div>
+          
+            <h1 id="num">0 cookies</h1>
+            <div class="image">
+                <!-- <img src="./src/image/800.jpg " onclick="pressed()" alt="Cookie" width="200px" height="200px"/> -->
+            <a href= # onclick="add()"><img src="./src/image/800.jpg" alt="Cookie" width="200px" height="200px"></a>
+            <br><br>
+            You got
+            <input type="text" id="text" disabled style=text-align:center>
+            cookies
+            <br><br>
+            <button><a href="#" onclick="Save()">Save</a></button>
+            <button><a href="#" onclick="load()">load</a></button>
+        </div>
+
+        </div>
+        
+      
+
+        </footer>
+    <!-- </div> -->
     <script src="/src/app.js"></script>
+   
 </body>
 </html>
