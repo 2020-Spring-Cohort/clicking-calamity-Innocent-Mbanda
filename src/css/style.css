@@ -1,8 +1,7 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
 }
-
 .container{
     display: grid;
     grid-template-columns: 700px;
@@ -23,10 +22,10 @@
       position: relative;
       left: 170px;
       /* padding: 120px; */
-      grid-column:1;
-      grid-row:2;
+      /* grid-column:1;
+      grid-row:2; */
       /* border: 1px solid indianred; */
-  } 
+  
 /* 
   .footer{
       display: grid;
@@ -37,13 +36,13 @@
        text-align: center; 
       justify-content: center; */
 
-  }
-  .container{
-      height: 100vh;
+  /* } */
+  /* .container{ */
+      /* height: 100vh;
       position: relative; 
-      display: grid;
+      display: grid; */
       /* grid-template-rows: 1fr 5fr 1fr; */
 
-  }
+  /* }
 
- 
+  */ 

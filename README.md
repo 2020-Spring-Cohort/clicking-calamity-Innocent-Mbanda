@@ -7,15 +7,16 @@ You have been contracted by Coo Coo Computing Challengers to take a concept, Cli
 
 ## The Application Requirements
 - [ ] You must create a website that tracks the amount of times the clicking button has been clicked.
-    - [ ] Create a button in the browser to click.
+    <!-- - [ ] Create a button in the browser to click. -->
     - [ ] Create a section on the page that interacts with the _'Clicking Companions'_.
-      - [ ] Displays the amount of _Clicking Companions_ purchased.
-      - [ ] Provides a button to purchase _Clicking Companions_.
+      <!-- - [ ] Displays the amount of _Clicking Companions_ purchased.
+      - [ ] Provides a button to purchase _Clicking Companions_. -->
       - [ ] Button is disabled when you do not have enough clicks to buy a _Clicking Companion_.
     - [ ] Create a section on the page that interacts with the _'Collective Culmination Compounder'_.
-      - [ ] Displays the amount of _Collective Culmination Compounder_ purchased.
-      - [ ] Provides a button to purchase _Collective Culmination Compounder_.
+      <!-- - [ ] Displays the amount of _Collective Culmination Compounder_ purchased. -->
+      <!-- - [ ] Provides a button to purchase _Collective Culmination Compounder_. -->
       - [ ] Button is disabled when you do not have enough clicks to buy a _Collective Culmination Compounder_.
+      
 - [ ] Have a function that returns the click count.
 - [ ] You must implement a feature called _'Clicking Companions'_.
     - [ ] _Clicking Companions_ are bought with clicks from your click total.
@@ -69,9 +70,9 @@ This iteration covers project setup and starting the creation of the game.  Are 
 - Increase the cost of the second _Clicking Companion_ by an additional ten percent to 110.
 - Increase the cost of every additional _Clicking Companion_ by an additional ten percent.
 
-#### FEATURE : Ensure that there are enough clicks to buy a _Clicking Companion_.
+<!-- #### FEATURE : Ensure that there are enough clicks to buy a _Clicking Companion_.
 > As the game designer, I want to ensure that players have to put the game into a proper state to be able to purchase a _Clicking Companion_, so that the game has a challenge.
-- Prevent the _Clicking Companion_ count from going up if there are not enough clicks to purchase a _Companion_.
+- Prevent the _Clicking Companion_ count from going up if there are not enough clicks to purchase a _Companion_. -->
 
 #### FEATURE : The amount of _Clicking Companions_ affect the amount of clicks added when an 'Add auto clicks' event is called.
 > As a user, I want to be able to purchase _Clicking Companions_, so that I don't have to keep clicking a button all day.
