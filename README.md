@@ -81,21 +81,21 @@ This iteration covers project setup and starting the creation of the game.  Are 
 ### Iteration 2
 This iteration covers the creation of the _Collective Culmination Compounders_, the higher your _Collective Culmination Compounders_ count the more each click you take is worth.
 
-#### FEATURE : Be able to purchase the first _Collective Culmination Compounder_ with 10 clicks from your click count.
+<!-- #### FEATURE : Be able to purchase the first _Collective Culmination Compounder_ with 10 clicks from your click count.
 > As a user, I want to make my clicks more powerful, so that I can make the work to get more _Clicking Companions_ easier.
 - Can retrieve a _Collective Culmination Compounder_ count.
 - Can add to the _Collective Culmination Compounder_ count.
-- Subtract the amount of the _Collective Culmination Compounder_ cost from the click count.
+- Subtract the amount of the _Collective Culmination Compounder_ cost from the click count. -->
 
 #### FEATURE : The cost of each _Collective Culmination Compounder_ will go up with each purchase.
-> As a game designer, I want the game to become more difficult as the game progresses, so that users will continue to play the game.
-- Increase the cost of the second __Collective Culmination Compounder_ by an additional ten percent to 11.
-- Increase the cost of every additional _Collective Culmination Compounder_ by an additional ten percent.
+<!-- > As a game designer, I want the game to become more difficult as the game progresses, so that users will continue to play the game.
+- Increase the cost of the second __Collective Culmination Compounder_ by an additional ten percent to 11. -->
+<!-- - Increase the cost of every additional _Collective Culmination Compounder_ by an additional ten percent. -->
 
 
 #### FEATURE : Ensure that there are enough clicks to buy a _Collective Culmination Compounder_.
 > As the game designer, I want to ensure that players have to put the game into a proper state to be able to purchase a _Collective Culmination Compounder_, so that the game has a challenge.
-- Prevent the _Collective Culmination Compounder_ count from going up if there are not enough clicks to purchase a _Compounder_.
+<!-- - Prevent the _Collective Culmination Compounder_ count from going up if there are not enough clicks to purchase a _Compounder_. -->
 
 #### FEATURE : The first _Collective Culmination Compounder_ should increase the value of a click 1.2x.
 > As a user, I want to make my clicks more powerful, so that I can make the work to get more _Clicking Companions_ easier.
@@ -107,7 +107,7 @@ This iteration covers the creation of the _Collective Culmination Compounders_, 
 
 #### FEATURE : The _Collective Culmination Compounders_ click bonus will apply to clicks from the _Click Companions_.
 > As a user, I want to see my click investments work together to get me more clicks, so that I can have all the clicks.
-- When an 'Add auto clicks' event is executed, increase the value of each auto click by the amount of the click value multiplier.
+<!-- - When an 'Add auto clicks' event is executed, increase the value of each auto click by the amount of the click value multiplier. -->
 
 ### Iteration 3
 This iteration will prepare the html document for the game.  Open the index.html file and start adding the elements you'll need.  Maintain the structure of the HTML with semantic html elements and use BEM to give useful class attribute names to your elements.  Use a combination of HTML, CSS, and JavaScript to achieve the trickier features below.

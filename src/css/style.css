@@ -1,40 +1,122 @@
-/* *{
+*{
     padding: 0;
     margin: 0;
 }
+body{
+    background-image: url("./../image/back.jpg");
+}
 .container{
     display: grid;
-    grid-template-columns: 700px;
-    grid-template-rows: 300px ;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 600px 300px ;
+   border:1px solid black;
+
 
   }
-  #num{
-      font-size: 100px;
-      color: khaki;
-    position: relative;
-    left: 30%;
-    grid-column: 1;
-    grid-row: 1;
-    padding: 30px;
-  }
-  .image{
-      justify-content: center;
-      position: relative;
-      left: 170px;
-      /* padding: 120px; */
-      /* grid-column:1;
-      grid-row:2; */
-      /* border: 1px solid indianred; */
   
-/* 
-  .footer{
-      display: grid;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      border: 1px solid chocolate;
-       text-align: center; 
-      justify-content: center; */
+  #img{
+      grid-column: 1;
+      grid-row: 1;
+      /* border: 1px solid black; */
+      margin-left: 150px;
+      margin-top: 100px;
+      font-size: 20px;
+      border-radius: 50px;
+    background-color: #C6C7C4;
+  }
+  #compa2{
+    margin-top: 80px;
+    margin-left: 70px;
+    width: 300px;
+    height: 60px;
+   grid-column: 2;
+    grid-row: 1; 
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #A2999E
+} 
+  /* #h2{
+     width: 600px;
+     height: 50px;
+     grid-column: 2;
+     grid-row: 1;
+ } */
+ 
+ #companion{
+    width: 600px;
+    height: 100px;
+    margin-left: 80px;
+    padding-top:240px;
+   grid-column: 2;
+    grid-row: 1; 
+    font-size: 25px;
+   
+}
+#compa4{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 300px;
+    height: 100px;
+ grid-column: 2;
+ grid-row: 2;
+ font-size: 20px;
+ background-color:#846A6A;
+ border-radius: 50px;
+}
+
+#costOfCompoinon{
+    width: 300px;
+    height: 100px;
+    margin-top:150px;
+    margin-left: 80px;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 25px;
+}
+#CostToBuyCompounder{
+    margin-top: 140px;
+    margin-left: 70px;
+    width: 250px;
+    height: 100px;
+   grid-column: 2;
+    grid-row: 2; 
+    font-size: 20px;
+    /* background-color: #846A6A;  */
+} 
+ #CompounderPurchased{
+    margin-top: 200px;
+    margin-left:70px;
+    width: 600px;
+    height: 100px;
+   grid-column:2;
+    grid-row: 2;  
+    font-size: 20px;
+} 
+#h2{
+    margin-top: 450px;
+    margin-left:170px;
+    width: 600px;
+    height: 100px;
+   grid-column:1;
+    grid-row: 1;  
+    font-size: 20px;
+} 
+#resert{
+    margin-top: 500px;
+    margin-left:150px;
+    width: 400px;
+    height: 100px;
+   grid-column:1;
+    grid-row: 1; 
+    border-radius: 50px;
+    background-color: #C6C7C4;
+}
+
+
+
+
+
 
   /* } */
   /* .container{ */

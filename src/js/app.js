@@ -7,6 +7,7 @@ class ClickCounter{
         this.compounderPurchased=0;
         this.compounderCost=10;
         this.compounderCount =0;
+        this.clickMultiplier =1;
     
     }
     recordClick(){
@@ -18,6 +19,8 @@ class ClickCounter{
           this.clickCount-=100;
           this.companioncost = this.companioncost+(this.companioncost*0.1);
           this.companionPurchased++;
+          this.clickMultiplier = this.clickMultiplier*1.2;
+          
 
       }  
     }
@@ -64,6 +67,10 @@ ButtonToBuyCompanion.addEventListener('click',()=>{
     displayCompanionPurchased.innerText = game.companionPurchased;
     displayNumberOfClicks.innerText = game.clickCount;
     displayTheCostOfCompanion.innerText =game.companioncost.toFixed(2);
+    setInterval(()=>{
+        game.clickCount =game.clickCount+game.clickMultiplier;
+        displayNumberOfClicks.innerText = game.clickCount.toFixed(2);
+    },1000);
 });
 
 ButtonToBuyCompounder.addEventListener('click',()=>{
@@ -72,8 +79,6 @@ ButtonToBuyCompounder.addEventListener('click',()=>{
     displayCompounderPurchased.innerText = game.compounderPurchased;
     displayTheCostOfCompounder.innerText = game.compounderCost.toFixed(2);
 
-
-    
 })
 
 
